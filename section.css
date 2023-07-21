@@ -1,0 +1,489 @@
+/* Section */
+section {
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* background: #0b423a; */
+    /* background: linear-gradient(356.41deg, #022335 3.63%, #043A41 90.98%); */
+    background: linear-gradient(286.41deg, #022335 3.63%, #043A41 90.98%);
+    color: rgb(143, 255, 255);
+
+}
+section .container{
+    margin: 0 auto;
+    max-width: 90%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ 
+section .h1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: end;
+    display: block;
+}
+section .h1 h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+/* .rowl{
+    position: relative;
+    width: 10px;
+    max-width: 100%;
+    height: 340px;
+    background: linear-gradient(180deg, #9a03ff 0%, rgb(140, 0, 255) 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    box-shadow: 0px 0px 10px 3px rgb(140, 0, 255);
+    border-radius: 6px;
+    z-index: 99999;
+}
+.rows .rowl2{
+    position: relative ;
+    width: 100%;
+    height: 10px !important;
+    background: linear-gradient(180deg, #9a03ff 0%, rgb(140, 0, 255) 100%);
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+     box-shadow: 0px 0px 10px 3px rgb(140, 0, 255);
+    border-radius: 6px;
+    box-sizing: border-box;
+    z-index: 9999;
+} */
+.css,.html,.js{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 255, 255);
+    min-width: 24%;
+}
+
+section .rows{
+    max-width: 100%;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-shadow: 0px 0px 7px rgb(88, 255, 255);
+}
+.rows .html {
+    position: relative;
+    width: 33%;
+    /* background: #004952; */
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    border: 1px ridge rgb(0, 255, 221);
+    border-radius: 20px;
+}
+.rows .css {
+    position: relative;
+    width: 33%;
+    /* background: #004952; */
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    border: 1px ridge rgb(88, 255, 255);
+    border-radius: 20px;
+}
+.rows .js {
+    position: relative;
+    width: 33%;
+    /* background: #004952; */
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    border: 1px ridge rgb(88, 255, 255);
+    border-radius: 20px;
+} 
+
+.rows .zazu {
+    position: relative;
+    width: 24.5%;
+    height: 200px;
+    /* background: #004952; */
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+    border: 1px ridge rgb(0, 255, 221);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lia{
+    box-shadow:  inset 0px 0px 10px 1px rgba(88, 255, 255, 0.959);
+    height: 200px;
+    margin: 20px auto;
+    min-width: 100px;
+
+}
+
+
+.texts  h1 i{
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.texts  h1{
+    position:  relative;
+    margin: 6px;
+    /* font-size: 50px; */
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.texts  h1 img{
+    position:  relative;
+    /* margin: 6px; */
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    filter:
+    brightness(1000%) grayscale(100%) /* To change the image color to the white */
+    opacity(0.1) /* To apply the color all over the image */
+    drop-shadow(0 0 0 rgb(88, 255, 255 )) /* To apply my costum color */
+    drop-shadow(0 0 0 rgb(88, 255, 255 )) /* To apply my costum color more stronger */
+    drop-shadow(0 0 0 rgb(88, 255, 255 ))
+    drop-shadow(0 0 0 rgb(88, 255, 255 ))
+    drop-shadow(0 0 0 rgb(88, 255, 255 ));
+
+}
+.rows .texts {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    /* font-size: 25px; */
+}
+.rows .texts p{
+    display: flex;    
+    /* font-size: 20px; */
+    padding: 5px;
+    text-align: center;
+} 
+.rows .zazu .texts p{
+    display: block;
+    display: flex;    
+    /* font-size: 15px; */
+} 
+
+.line{
+    transition: all 0.6s ease;
+    content: "";
+    position: absolute;
+    background: 0;
+    width: 0px;
+    height: 0px;
+    bottom: 0px;
+    margin-left: -50%;
+    border: 0;
+    border-radius: 50%;
+    box-shadow:  0px 0px 30px 13px rgb(0, 255, 255);
+
+}
+.lia:hover .line {
+    margin-left: 50%;
+   
+}
+.rows .tlwnd .texts p{
+    display: flex;    
+    font-size: 15px;
+    padding: 0 5px;
+} 
+.rows .github .texts p{
+    display: flex;    
+    font-size: 17px ;
+    padding: 5px 5px;
+} 
+.rows .netlify .texts p{
+    display: flex;    
+    font-size: 15px;
+    padding: 5px 5px;
+} 
+.rows .html .texts p{
+    display: flex;    
+    font-size: 20px;
+    padding: 5px 5px;
+} 
+.rows .css .texts p{
+    display: flex;    
+    font-size: 23px ;
+    padding: 5px 5px;
+} 
+.rows .js .texts p{
+    display: flex;    
+    font-size: 20px;
+    padding: 5px 5px;
+} 
+.rows .boots .texts p{
+    display: flex;    
+    font-size: 18px;
+    padding: 5px 5px;
+} 
+
+.fund{
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap !important; */
+    flex-direction: row;
+}
+.pop{
+    display: flex;
+    /* flex-wrap: wrap !important; */
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+}
+@media (max-width:1200px) and (min-width:800px) {
+    section{
+            width: 100%;
+            height: 900px;
+    }
+    section .rows{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            min-height: 800px;
+            max-height: 800px;
+    }
+    section .rows .lia{
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+}
+    .rows .tlwnd .texts p{
+        display: flex;    
+        font-size: 12px;
+        padding: 0 5px;
+    } 
+    .rows .github .texts p{
+        display: flex;    
+        font-size: 13px ;
+        padding: 5px 5px;
+    } 
+    .rows .netlify .texts p{
+        display: flex;    
+        font-size: 12px;
+        padding: 5px 5px;
+    } 
+    .rows .html .texts p{
+        display: flex;    
+        font-size: 13px;
+        padding: 5px 5px;
+    } 
+    .rows .css .texts p{
+        display: flex;    
+        font-size: 18px ;
+        padding: 5px 5px;
+    } 
+    .rows .js .texts p{
+        display: flex;    
+        font-size: 15px;
+        padding: 5px 5px;
+    } 
+    .rows .boots .texts p{
+        display: flex;    
+        font-size: 15px;
+        padding: 5px 5px;
+    } 
+
+    .fund{
+        display: flex;
+        width: 100%;
+        /* flex-wrap: wrap !important; */
+        flex-direction: column !important;
+    }
+    .pop{
+        display: flex;
+        /* flex-wrap: wrap !important; */
+        flex-direction: column !important;
+        max-width: 100%;
+        width: 100%;
+    }
+.tlwnd{
+    display: none !important;
+}
+@media (max-width:800px) and (min-width:561px) {
+    .tlwnd{
+        display: none !important;
+    }
+    section{
+            width: 100%;
+            height: 900px !important;
+    }
+    section .rows{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: row !important;
+            /* display: flex; */
+            min-height: 800px;
+            max-height: 800px;
+    }
+    section .rows .lia{
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+}
+.fund{
+    display: flex !important;
+    width: 50%;
+    /* flex-wrap: wrap !important; */
+    flex-direction: column !important;
+}
+.pop{
+    display: flex;
+    /* flex-wrap: wrap !important; */
+    /* flex-direction: column !important; */
+    max-width: 50%;
+    width: 100%;
+}
+    .rows .tlwnd .texts p{
+        display: flex;    
+        font-size: 12px;
+        padding: 0 5px;
+    } 
+    .rows .github .texts p{
+        display: flex;    
+        font-size: 13px ;
+        padding: 5px 5px;
+    } 
+    .rows .netlify .texts p{
+        display: flex;    
+        font-size: 12px;
+        padding: 5px 5px;
+    } 
+    .rows .html .texts p{
+        display: flex;    
+        font-size: 13px;
+        padding: 5px 5px;
+    } 
+    .rows .css .texts p{
+        display: flex;    
+        font-size: 18px ;
+        padding: 5px 5px;
+    } 
+    .rows .js .texts p{
+        display: flex;    
+        font-size: 15px;
+        padding: 5px 5px;
+    } 
+    .rows .boots .texts p{
+        display: flex;    
+        font-size: 15px;
+        padding: 5px 5px;
+    } 
+
+.tlwnd{
+    display: none !important;
+}
+
+@media (max-width:560px) and (min-width:0px) {
+    section{
+            width: 100%;
+            height: 1888px !important;
+            max-width: 100%;
+    }    section .container{
+        width: 90% !important;
+        height: 1888px !important;
+        margin: auto;
+}
+
+    section .rows{
+        position: relative;
+        width: 100% !important;
+        max-width: 100% !important;
+            display: flex;
+            height: auto;
+            min-width: 200px;
+            margin: auto !important;
+            box-sizing: border-box;
+flex-direction: row !important;
+    }
+    .fund{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;}
+        .pop{
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+        }
+        
+    section .rows .lia{
+        width: 90%;
+        min-width: 200px !important;
+        margin:  20px auto !important   ;
+}
+section .h1 {
+    width: 100%;
+    height: 100px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: end;
+    display: block;
+}
+section .h1 h1{
+padding: 40px !important; 
+}
+.rows .texts p{
+    display: flex;    
+    font-size: 18px !important;
+    padding: 5px;
+    text-align: center;
+} 
+.rows .tlwnd .texts p{
+    display: flex;    
+    font-size: 18px !important;
+    padding: 0 5px;
+} 
+.rows .github .texts p{
+    display: flex;    
+    font-size: 15px !important;
+    padding: 5px 5px;
+} 
+.rows .netlify .texts p{
+    display: flex;    
+    font-size: 16px !important;
+    padding: 5px 5px;
+} 
+.rows .html .texts p{
+    display: flex;    
+    font-size: 20px !important;
+    padding: 5px 5px;
+} 
+.rows .css .texts p{
+    display: flex;    
+    font-size: 20px ;
+    padding: 5px 5px;
+} 
+.rows .js .texts p{
+    display: flex;    
+    font-size: 20px !important;
+    padding: 5px 5px;
+} 
+}
